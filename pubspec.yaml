@@ -1,0 +1,24 @@
+name: umeng
+description: A new flutter plugin project.
+version: 0.0.1
+author: dai <aykon1229@gmail.com>
+homepage: https:www.github.com/daihang1229
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  plugin:
+    androidPackage: im.weshine.plugin.umeng
+    pluginClass: UmengPlugin
+
